@@ -1,0 +1,30 @@
+---
+title: "Lab 6: Nonstationarity: trends, covariates, and change points"
+week: 6
+module: 2
+date: 2026-10-02
+due:
+  - label: "Lab 6 due"
+    date: 2026-10-09
+status: "placeholder"
+release: "public"
+---
+
+Mann-Kendall with permutation p-values on the Red River record.
+
+## Setup
+
+```{julia}
+#| solution: false
+#| output: false
+using Pkg
+lab_dir = dirname(@__FILE__)
+Pkg.activate(lab_dir)
+!isfile(joinpath(lab_dir, "Manifest.toml")) && Pkg.instantiate()
+```
+
+[TODO]
+
+## Exercises
+
+[TODO]
